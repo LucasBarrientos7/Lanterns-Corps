@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(fondo.png);
+}
+
+h1 {
+
+    text-decoration: wavy;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+header, .main, footer {
+    background: none;
+    width: 97%;
+    max-width: 8000px;
+    margin: 10px auto;
+}
+
+header nav{
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+div {
+    text-align: center;
+    padding: 5px 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+}
+
+header nav ul li a:hover{
+    background: rgb(97, 96, 96);
+}
+
+.main .articles {
+    width: 68.5%;
+    margin-right: 1.5%;
+    float: left;
+    background: none;
+}
+
+.main .articles article {
+    padding: 20px;
+    background: #c7c7c7;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-bottom-style:outset;
+}
+
+h2 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.main .articles article p {
+    text-align: center;
+}
+
+aside {
+    width: 30%;
+    background: #ffffff;
+    padding: 15px;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-bottom-style:outset;
+}
+
+footer { 
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    clear: both;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 20px;
+    border: 6px solid #ffffff;
+    font-size: 8px;
+}
+
+.green {
+    color: rgb(255, 255, 255);
+    background-color: forestgreen;
+}
+
+.yellow {
+    color: rgb(255, 255, 255);
+    background-color: rgb(179, 176, 11);
+}
+
+.red {
+    color: rgb(255, 255, 255);
+    background-color: crimson;
+}
+
+.violet {
+    color: rgb(255, 255, 255);
+    background-color: rgb(170, 3, 192);
+}
+
+.blue {
+    color: rgb(255, 255, 255);
+    background-color: rgb(11, 135, 184);
+}
+
+.indigo {
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 11, 184);
+}
+
+.orange {
+    color: rgb(255, 255, 255);
+    background-color: rgb(184, 109, 11);
+}
