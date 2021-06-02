@@ -30,7 +30,7 @@ header, .main, footer {
 }
 
 header nav{
-    background: rgb(0, 0, 0);
+    background: #000000;
     overflow: hidden;
     font-size: 1em;
 }
@@ -55,13 +55,13 @@ header nav ul li {
 header nav ul li a {
     padding: 10px 55px;
     display: block;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     text-decoration: none;
     text-align: center;
 }
 
 header nav ul li a:hover{
-    background: rgb(97, 96, 96);
+    background: #616060;
 }
 
 .main .articles {
@@ -81,6 +81,7 @@ header nav ul li a:hover{
 }
 
 h2 {
+    color: #ffffff;
     text-align: center;
     font-size: 1em;
 }
@@ -103,8 +104,8 @@ aside {
 }
 
 footer { 
-    background: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background: #000000;
+    color: #ffffff;
     clear: both;
     padding: 10px 0px;
     text-align: center;
@@ -114,36 +115,29 @@ footer {
 }
 
 .green {
-    color: rgb(255, 255, 255);
-    background-color: forestgreen;
+    background-color: #228b22;
 }
 
 .yellow {
-    color: rgb(255, 255, 255);
-    background-color: rgb(212, 191, 0);
+    background-color: #d4bf00;
 }
 
 .red {
-    color: rgb(255, 255, 255);
-    background-color: crimson;
+    background-color: #dc143c;
 }
 
 .violet {
-    color: rgb(255, 255, 255);
-    background-color: rgb(170, 3, 192);
+    background-color: #aa03c0;
 }
 
 .blue {
-    color: rgb(255, 255, 255);
-    background-color: rgb(11, 135, 184);
+    background-color: #0b87b8;
 }
 
 .indigo {
-    color: rgb(255, 255, 255);
-    background-color: rgb(100, 11, 184);
+    background-color: #640bb8;
 }
 
 .orange {
-    color: rgb(255, 255, 255);
-    background-color: rgb(184, 109, 11);
+    background-color: #b86d0b;
 }
